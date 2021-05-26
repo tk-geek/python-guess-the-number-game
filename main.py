@@ -19,3 +19,14 @@ elif(guess2 < number ) :
   print(" your guess was too low guess again")
 else:
   print("congrats correct!!!!")
+
+
+guess3 =  int( input("guess a number between 1 and 10 "))
+
+if (guess3 > number ):
+  print( "your guess was too high  guess again")
+elif(guess3 < number ) :
+  print(" your guess was too low guess again")
+else:
+  print("congrats correct!!!!")
+ 
